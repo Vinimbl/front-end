@@ -1,0 +1,20 @@
+
+.cabeçalho__usuario
+    {
+        background-color: var(--cor-de-fundo)
+    }
+
+.cabeçalho__logo 
+    {
+        display: flex;
+        width: 30%;
+        margin: 5em auto;    
+        border-radius: 20px
+    }
+
+.form-signin
+    {
+        display: flex;
+        text-align: center;
+    }
+

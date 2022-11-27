@@ -1,0 +1,57 @@
+@import url("header.css");
+@import url("usuario.css");
+@import url("main.css");
+@import url("contato.css");
+@import url("rodape.css");
+@import url("banner.css");
+@import url("form.css");
+@import url("produto.css");
+@import url("carrossel.css");
+@import url("diferenciais.css");
+
+:root
+    {
+        --cor-de-fundo: #EBECEE;
+        --branco: #FFFFFF;
+        --laranja: #EB9B00;
+        --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+        --fonte-principal: "Poppins";
+        --azul: #002F52;
+        --fonte-secundario: "Josefin Sans";
+        --preto: #000000;
+        --cinza: #474646;
+        --cinza-claro: #858585;
+    }
+
+body
+    {
+        background-color: var(--cor-de-fundo); /*chama função do var e chama a cor desejada na variavel*/
+        font-family: var(--fonte-principal);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+.rodapé__logo
+    {   
+        text-align: center;
+        width: 30%;
+        height: 30%;
+    }
+
+.rodapé
+    {
+        background-color: var(--branco);
+        display: flex;
+        padding-left: 4.5em;      
+        align-items: center;
+        position: relative;
+    }
+
+.rodapé__titulo
+    {
+        font-size: 10px;
+        text-align: center;
+    }
+
+
+

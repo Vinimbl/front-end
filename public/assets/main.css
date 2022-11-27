@@ -1,0 +1,102 @@
+.mapa__conteudo h2
+    {
+        font-family: var(--fonte-secundaria);
+        font-size: 1em;
+        margin: 15px 0px;
+        text-align: center;  
+        font-weight: 700;        
+    }
+
+.card__descrição h2 
+    {
+        font-size: 1.3em;
+        margin: 15px 0px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+.card__descrição 
+    {        
+        background: var(--branco);
+        font-family: var(--fonte-principal);
+        font-size: 0.8em;  
+        font-weight: 500; 
+        border-radius: 10px;
+        margin: 1.5em;
+        padding: 1em;
+        text-decoration: none;
+    }
+
+.descrição__imagem
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.mapa__conteudo 
+    {    
+        margin: 1em;
+        padding: 1em;
+    }
+.mapa__texto
+    {
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+    }
+
+.mapa__google
+    {
+        border-radius: 20px;
+    }
+
+@media screen and (min-width: 1024px)
+    {
+        .contato
+            {
+                width: 50%;
+                height: 30%;
+                margin-left: 25.5%;
+            }
+        
+        .contato h2 
+            {
+                font-size: 2em;
+            }
+    
+        .card__descrição
+            {
+                width: 60%;
+                margin-left: 20%;
+            }
+
+        .card__descrição h2 
+            {
+                font-size: 2em;
+                font-weight: 700;
+            }
+
+        .card__descrição p 
+            {
+                font-size: 1.2em;
+                font-weight: 400;
+            }
+
+        .mapa__conteudo
+            {
+                margin: 0 auto; 
+            }
+
+        .mapa__conteudo h2
+            {
+                font-size: 1.5em;
+            }
+
+        .mapa__google
+            {
+                width: 80%;
+                margin-left: 10%; 
+                height: 20em;                               
+            }
+    }
+
+ 

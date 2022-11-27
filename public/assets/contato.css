@@ -1,0 +1,102 @@
+.contato
+    {
+        background: var(--branco);
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        box-shadow: 0px 4px 4px rgba(199, 59, 59, 0.25);
+        border-radius: 10px;
+        margin: 1em;
+        padding: 1em;
+    }
+
+h2 
+    {
+        text-align: center;
+        font-weight: 700;
+    }
+
+form label, legend
+    {
+        display: block;
+        font-size: 1em;
+        margin: 1em 0 0 0;   
+        font-weight: 700;     
+    }
+.input-padrao
+    {
+        display: block;
+        margin: center;
+        padding: 10px 25px;
+        width: 100%;
+        border-radius: 10px;
+        border: bold;   
+        font-size: 1em;             
+    }
+.checkbox
+    {
+        margin: 20px 0;        
+    }
+
+.enviar
+    {
+       width: 100%; 
+       padding: 15px 0;
+       background: orange;
+       color: white;
+       font-weight: bold;
+       font-size: 18px;
+       border: none;
+       border-radius: 5px;
+       transition: 1s all;
+       cursor: pointer;
+    }
+
+.enviar:hover 
+    {
+        background: darkorange;
+        transform: scale(1.1);
+    }
+
+fieldset 
+    {   
+        display: block;
+        margin-top: 1em;
+        padding-right: 2em;
+        width: 100%;
+    }
+
+table 
+    {
+        width: 100%;
+        margin: 10px 0 20px;        
+    }
+
+thead 
+    {
+        background: #555555;
+        color: white;
+        font-weight: bold;
+    }
+
+td, th 
+    {
+        text-align: center;
+        border: 1px solid #000000;
+        padding: 5px 30px;
+    }
+
+@media screen and (min-width: 1024px)
+    {
+        .contato
+            {
+                width: 50%;
+                height: 30%;
+                margin-left: 25.5%;
+            }
+        
+        .contato h2 
+            {
+                font-size: 2em;
+            }
+    
+    }

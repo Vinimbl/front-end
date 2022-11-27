@@ -1,0 +1,216 @@
+.cabeçalho__menu-hamburguer
+    {
+        width: 40px; /*largura*/
+        height: 40px; /*altura*/
+        background-image: url("./img1/Menu.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 10px 10px 0 0;
+        display: inline-block; /*permite ajuste de largura e altura*/                      
+    }
+
+.container__botao:checked ~ .container__rotulo > .cabeçalho__menu-hamburguer 
+    {
+        background-image: url("./img1/menu_black_24dp\ 1.png");        
+    }
+
+.container__botao:checked ~ .container__rotulo 
+    {
+        background: var(--azul-degrade);
+    }
+
+.cabeçalho 
+    {
+        background-color: var(--branco);
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        position: relative;
+    }
+
+.container
+    {
+        display: flex;
+        align-items: center;               
+    }
+
+.container__imagem 
+    {
+        padding-right: 0em;
+    }
+
+.container__imagemm
+    {
+        padding-left: 10em;
+    }
+
+.lista-menu
+    {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 42vw;
+    }
+
+.container__botao:checked ~ .lista-menu 
+    {
+        display: block;
+    }
+
+.lista-menu__titulo, .lista-menu__item
+    {
+        padding: 1em;
+        background-color: var(--branco);
+    }
+
+.lista-menu__titulo
+    {
+        color: var(--laranja);
+        font-weight: 700;
+    }
+
+.lista-menu__link
+    {
+        color: var(--azul-degrade);        
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+.container__botao
+    {
+        display: none;
+    }
+
+.container__titulo 
+    {
+        display: none;
+    }
+
+.opções 
+    {
+        display: none;
+    }
+
+.container p
+    {
+        display: none;
+    }
+
+@media screen and (min-width: 1024px) 
+    {
+    .container__titulo, .container__titulo--negrito 
+        {
+            font-family: var(--fonte-secundario);
+            font-size: 30px;
+        }
+    .container__titulo 
+        {
+            font-weight: 400;
+            display: block;                
+        }
+    .container__titulo--negrito 
+        {
+            font-weight: 700;
+        }
+
+    .container__texto 
+        {
+            margin: 0 1em 0 0;
+        }
+
+    .container__link
+        {
+            width: 50%;
+            padding-left: 65%;
+        }
+
+    .opções__rotulo
+        {
+            padding-top: 1.5em;
+            font-size: 1.5em;            
+        }
+
+    .opções 
+        {
+            display: flex;
+        }  
+
+    .opções__item 
+        {
+            padding-top: 3em;
+            text-transform: uppercase;
+        }
+
+    .opções__link 
+        {
+            text-decoration: none;
+            color: var(--preto);
+        }
+
+    .container__imagem-transparente
+        {
+            display: none;
+        }
+
+    .cabeçalho__menu-hamburguer 
+        { 
+            display: none;
+        }
+
+    .container
+        {
+            margin: 0.5em;
+        }
+
+    .opções__botão:checked ~ .lista-menu 
+        {
+            display: block;
+            width: auto;
+        }
+
+    .opções__botão 
+        {
+            display: none;
+        }   
+
+    .opções__botão:checked~ .opções__rotulo> .opções__item 
+        {
+            background: var(--azul-degrade);
+            color: var(--branco);
+        }
+
+    .opções__item 
+        {
+            padding: 2em 1em;
+        }
+
+    .lista-menu__item:hover
+        {
+            background: var(--azul-degrade);
+        }
+
+    .lista-menu__item:hover > .lista-menu__link
+        {
+            -webkit-text-fill-color: var(--branco);
+            text-decoration: none;
+        }
+    .container__imagem
+        {
+            width: 30%;
+            height: 20%;
+            padding-left: 3em;
+        }
+
+     .cabeçalho
+        {
+            height: 5%;
+        }
+        
+    .container__imagemm    
+        {
+            height: 5em;
+        }
+    
+}
+    
+

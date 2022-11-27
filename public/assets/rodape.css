@@ -1,0 +1,45 @@
+.rodapé__logo
+    {   
+        text-align: center;
+        width: 30%;
+        height: 30%;
+    }
+
+.rodapé
+    {
+        background-color: var(--branco);
+        display: flex;
+        padding-left: 4.5em;      
+        align-items: center;
+        position: relative;
+    }
+
+.rodapé__titulo
+    {
+        font-size: 10px;
+        text-align: center;
+    }
+
+
+    @media screen and (min-width: 1024px)
+    {
+        .rodapé__logo
+            {
+                text-align: center;
+                width: 15%;
+                height: 25%;
+            }
+        
+        .rodapé 
+            {
+                background-color: var(--branco);
+                display: flex;
+                padding-left: 38%;
+            }
+
+        .rodapé__titulo 
+            {
+                font-size: 1em;
+            }
+         
+    }

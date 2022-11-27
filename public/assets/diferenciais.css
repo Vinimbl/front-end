@@ -1,0 +1,29 @@
+.diferencial 
+    {
+        font-family: var(--fonte-principal);
+        font-size: 1.5em;
+        text-align: justify;
+        font-weight: 500;
+    }
+
+.descrição__imagemd 
+    {
+        width: 30%;
+        margin-left: 33%;        
+    }
+
+@media screen and (min-width: 1024px)
+    {
+
+        .card__descrição
+            {   
+                width: 33%;
+                margin-left: 33%;
+            }
+
+        .descrição__imagemd
+            {
+                margin-left: 33%;
+            }
+        
+    }
